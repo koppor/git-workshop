@@ -9,4 +9,5 @@ It does not replace complete git documentation and books, these can be found at 
   * Book: [Learn Git in a Month of Lunches](https://www.manning.com/books/learn-git-in-a-month-of-lunches)
   * Book: [Version Control with Git](http://shop.oreilly.com/product/0636920022862.do) - contains technical explanations of the inner happenings of git
 * [awesome-git-addons](https://github.com/stevemao/awesome-git-addons) - awesome git addons
+* [Explanation of HEAD and git reflog](https://stackoverflow.com/a/34519716/873282)
 * http://wiki.flupp.de/git

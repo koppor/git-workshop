@@ -9,11 +9,14 @@
   * Wie committed man?
   * Wie löst man einen Konflikt?
   * Wie poliert man bereits bestehende Commits?
+  * Was ist `git rebase -i`?
   * Was bedeutet "Amend Last Commit?"
   * Was sind die Probleme bei einer Polierung?
   * Wie halte ich mein lokales Repository aktuell?
   * Was ist ein "hard reset"?
   * Was ist ein "push -f"?
+  * Was kann `git gui` grundsätzlich?
+  * Was kann `gitk` grundsätzlich?
 * Grundwissen GitHub
   * Was ist ein Fork?
   * Was ist ein Pull-Request?
@@ -25,6 +28,7 @@
   * Was bedeutet "rebase"?
   * Was ist Markdown?
   * Wie referenziere ich Commits, Issues oder Pull-Requests?
+  * Wie räume ich einen Pull-Request auf?
 
 ## Aufgaben
 
@@ -52,10 +56,12 @@ Szenario: Mehrere Entwickler arbeiten an einem gemeinsamen Repository
   * Erläuterung: Damit ändert man den [Index] ("Staging Area")
   * Commit-Nachricht erstellen
   * Committen
+  * Lernziel "Was kann `git gui` grundsätzlich?" erreicht
 6. Mit `gitk` aktuellen Stand ansehen  (`SHIFT+F5` in `gitk`)
-  * Lernziel: "commit" erreicht
+  * Lernziel "commit" erreicht
 7. Commit pushen (In `git gui` auf `Push` klicken)
-7. Commit mit `gitk` ansehen (`SHIFT+F5` in `gitk`)
+7. Commit mit `gitk` ansehen (<kbd>Shift</kbd>+<kbd>F5</kbd> in `gitk`)
+  * Lernziel "Was kann `gitk` grundsätzlich?" erreicht
 8. Weitere Zeile `Test 456` anfügen
 9. Commmit erstellen
 10. Warten, dass jemand anderes auch in der Datei etwas geändert hat (an anderer Stelle)
@@ -72,7 +78,7 @@ Szenario: Mehrere Entwickler arbeiten an einem gemeinsamen Repository
 21. Mit `gitk` ansehen
 22. Konflikt lösen
   - "Händisch"
-  - In IntelliJ
+  - [In IntelliJ](https://www.jetbrains.com/help/idea/resolving-conflicts.html)
 23. Committen
 24. Pushen
   * Lernziel "Wie löst man einen Konflikt?" erreicht
@@ -86,6 +92,7 @@ Szenario: Mehrere Entwickler arbeiten an einem gemeinsamen Repository
 5. Speichern
 5. Ergebnis mit `gitk` ansehen
   * Lernziel: "Wie poliert man bereits bestehende Commits?" erreicht
+  * Lernziel: "Was ist `git rebase -i`?" erreicht
 5. Pushen
 1. Diskussion: Was sind die Probleme bei einer Polierung?
 2. Neue Zeile einfügen
@@ -125,7 +132,11 @@ Szenario: Mehrere Entwickler arbeiten an einem gemeinsamen Repository
   * Lernziel: "Wie reagiert man auf Review-Kommentare?" erreicht
 1. In GitHub pull request ansehen
 1. `[WIP]` entfernen
+1. Ggf. Pull-Request aufräumen
+  - `git rebase -i` --> alle commits zu einem zusammen fassen
+  - Nicht notwendig, da Committer squashen kann
 1. (Jemand akzeptiert pull request)
+  - Unterschiede merge / rebase / squash erläutern
 1. In GitHub pull request ansehen
   * Lernziel "Was ist ein Pull-Request?" erreicht
   * Lernziel "Was bedeutet [WIP]?" erreicht
