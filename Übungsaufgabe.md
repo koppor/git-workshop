@@ -1,5 +1,7 @@
 # git und GitHub Grundwissen
 
+Homepage: https://koppor.github.io/git-workshop/
+
 ## Ziele
 * Installiertes git
 * Grundwissen git
