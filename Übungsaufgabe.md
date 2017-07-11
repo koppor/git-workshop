@@ -7,7 +7,7 @@
   * Was ist ein Branch?
   * Was ist ein Commit?
   * Wie committed man?
-  * Wie löst man einen Konflikt?
+  * Wie lÃ¶st man einen Konflikt?
   * Wie poliert man bereits bestehende Commits?
   * Was ist `git rebase -i`?
   * Was bedeutet "Amend Last Commit?"
@@ -15,8 +15,8 @@
   * Wie halte ich mein lokales Repository aktuell?
   * Was ist ein "hard reset"?
   * Was ist ein "push -f"?
-  * Was kann `git gui` grundsätzlich?
-  * Was kann `gitk` grundsätzlich?
+  * Was kann `git gui` grundsÃ¤tzlich?
+  * Was kann `gitk` grundsÃ¤tzlich?
 * Grundwissen GitHub
   * Was ist ein Fork?
   * Was ist ein Pull-Request?
@@ -28,7 +28,7 @@
   * Was bedeutet "rebase"?
   * Was ist Markdown?
   * Wie referenziere ich Commits, Issues oder Pull-Requests?
-  * Wie räume ich einen Pull-Request auf?
+  * Wie rÃ¤ume ich einen Pull-Request auf?
 
 ## Aufgaben
 
@@ -37,8 +37,8 @@
 * Install [chocolatey](https://chocolatey.org/)
 * `choco install git`
 * `choco install conemu clink`
-* Installiere die [AutoHotKeyScripts](https://github.com/koppor/autohotkey-scripts) installieren - insbesondere Windows+`v` für Konsole
-* Für Repository https://github.com/koppor/git-demonstration Schreibrecht holen
+* Installiere die [AutoHotKeyScripts](https://github.com/koppor/autohotkey-scripts) installieren - insbesondere Windows+`v` fÃ¼r Konsole
+* FÃ¼r Repository https://github.com/koppor/git-demonstration Schreibrecht holen
 
 ### Schritte: Grundwissen git
 
@@ -50,42 +50,42 @@ Szenario: Mehrere Entwickler arbeiten an einem gemeinsamen Repository
 3. Stand mit `gitk` ansehen (`gitk --all`)
   * Lernziel: "local and remote repository" erreicht
   * Lernziel: "branch" erreicht
-4. In README.md eine neue Überschrift `Überschrift` und darunter eine Zeile `Test123` einfügen
+4. In README.md eine neue Ãœberschrift `Ãœberschrift` und darunter eine Zeile `Test123` einfÃ¼gen
 5. Commit erstellen (`git gui`)
-  * Datei dem Commit hinzufügen
-  * Erläuterung: Damit ändert man den [Index] ("Staging Area")
+  * Datei dem Commit hinzufÃ¼gen
+  * ErlÃ¤uterung: Damit Ã¤ndert man den [Index] ("Staging Area")
   * Commit-Nachricht erstellen
   * Committen
-  * Lernziel "Was kann `git gui` grundsätzlich?" erreicht
+  * Lernziel "Was kann `git gui` grundsÃ¤tzlich?" erreicht
 6. Mit `gitk` aktuellen Stand ansehen  (`SHIFT+F5` in `gitk`)
   * Lernziel "commit" erreicht
 7. Commit pushen (In `git gui` auf `Push` klicken)
 7. Commit mit `gitk` ansehen (<kbd>Shift</kbd>+<kbd>F5</kbd> in `gitk`)
-  * Lernziel "Was kann `gitk` grundsätzlich?" erreicht
-8. Weitere Zeile `Test 456` anfügen
+  * Lernziel "Was kann `gitk` grundsÃ¤tzlich?" erreicht
+8. Weitere Zeile `Test 456` anfÃ¼gen
 9. Commmit erstellen
-10. Warten, dass jemand anderes auch in der Datei etwas geändert hat (an anderer Stelle)
-11. Commit pushen. Schlägt fehl.
+10. Warten, dass jemand anderes auch in der Datei etwas geÃ¤ndert hat (an anderer Stelle)
+11. Commit pushen. SchlÃ¤gt fehl.
 12. Pullen
 13. Mit `gitk` aktuellen Stand ansehen  (`SHIFT+F5` in `gitk`)
 14. Pushen (mit `git push`)
 15. Mit `gitk` aktuellen Stand ansehen  (`SHIFT+F5` in `gitk`)
-16. Zeile `Test 678` anfügen
-17. Warten, dass jemand anderes auch in der Datei etwas geändert hat (an der selben Stelle)
-18. Commit pushen. Schlägt fehl.
+16. Zeile `Test 678` anfÃ¼gen
+17. Warten, dass jemand anderes auch in der Datei etwas geÃ¤ndert hat (an der selben Stelle)
+18. Commit pushen. SchlÃ¤gt fehl.
 19. Pullen
 20. Es entsteht ein Konflikt: `<<<<<<< HEAD`, `=======` und `>>>>>>> b51b4334ea7dbcd39ff9d34afe6c6f0299a5b22e`
 21. Mit `gitk` ansehen
-22. Konflikt lösen
-  - "Händisch"
+22. Konflikt lÃ¶sen
+  - "HÃ¤ndisch"
   - [In IntelliJ](https://www.jetbrains.com/help/idea/resolving-conflicts.html)
 23. Committen
 24. Pushen
-  * Lernziel "Wie löst man einen Konflikt?" erreicht
+  * Lernziel "Wie lÃ¶st man einen Konflikt?" erreicht
 5. Ergebnis mit `gitk` ansehen
-5. Neue Zeile einfügen
+5. Neue Zeile einfÃ¼gen
 5. Committen
-5. Neue Zeile einfügen
+5. Neue Zeile einfÃ¼gen
 5. Committen
 5. `git rebase -i`
 5. Zweites `pick` durch "Squash" ersetzen
@@ -95,11 +95,11 @@ Szenario: Mehrere Entwickler arbeiten an einem gemeinsamen Repository
   * Lernziel: "Was ist `git rebase -i`?" erreicht
 5. Pushen
 1. Diskussion: Was sind die Probleme bei einer Polierung?
-2. Neue Zeile einfügen
+2. Neue Zeile einfÃ¼gen
 2. Committen
-2. Neue Zeile einfügen
-2. In `git gui` "Amend Last Commit" auswählen
-2. Zeile hinzufügen
+2. Neue Zeile einfÃ¼gen
+2. In `git gui` "Amend Last Commit" auswÃ¤hlen
+2. Zeile hinzufÃ¼gen
 2. Committen
 2. Pushen
   * Lernziel "Was bedeutet "Amend Last Commit?"" erreicht
@@ -107,13 +107,13 @@ Szenario: Mehrere Entwickler arbeiten an einem gemeinsamen Repository
   * Lernziel "Wie halte ich mein lokales Repository aktuell?" erreicht
 4. In gitk auf ersten Commit gehen
 4. Rechte Maustaste "Rest master branch to here"
-  * `HARD` auswählen
+  * `HARD` auswÃ¤hlen
 4. Datei `README.md` ansehen
   * Lernziel "Was ist ein "hard reset"?" erreicht
-4. Pushen. Schlägt fehl.
-4. "force overwrite" auswählen (Äquivalent: `git push -f`)
+4. Pushen. SchlÃ¤gt fehl.
+4. "force overwrite" auswÃ¤hlen (Ã„quivalent: `git push -f`)
   * Lernziel "Was ist ein "push -f"?" erreicht
-99. Lokalen Ordner `git-demonstration` löschen
+99. Lokalen Ordner `git-demonstration` lÃ¶schen
 
 ### Schritte: Grundwissen GitHub
 1. Fork von https://github.com/koppor/git-demonstration erstellen
@@ -128,15 +128,15 @@ Szenario: Mehrere Entwickler arbeiten an einem gemeinsamen Repository
   * `[WIP]` im Titel verwenden
 1. (Jemand kommentiert pull request)
   * Lernziel: "Wie referenziere ich Commits, Issues oder Pull-Requests?" erreicht
-1. Neue Zeile hinzufügen, committen und pushen
+1. Neue Zeile hinzufÃ¼gen, committen und pushen
   * Lernziel: "Wie reagiert man auf Review-Kommentare?" erreicht
 1. In GitHub pull request ansehen
 1. `[WIP]` entfernen
-1. Ggf. Pull-Request aufräumen
+1. Ggf. Pull-Request aufrÃ¤umen
   - `git rebase -i` --> alle commits zu einem zusammen fassen
   - Nicht notwendig, da Committer squashen kann
 1. (Jemand akzeptiert pull request)
-  - Unterschiede merge / rebase / squash erläutern
+  - Unterschiede merge / rebase / squash erlÃ¤utern
 1. In GitHub pull request ansehen
   * Lernziel "Was ist ein Pull-Request?" erreicht
   * Lernziel "Was bedeutet [WIP]?" erreicht
@@ -145,7 +145,7 @@ Szenario: Mehrere Entwickler arbeiten an einem gemeinsamen Repository
 
 (ggf. erneute Demonstration von `git rebase -i` und `git push -f`)
 
-Folgend weitere Stichwörter:
+Folgend weitere StichwÃ¶rter:
 
 1. `git remote add koppor  https://github.com/koppor/git-demonstration`
 1. `git fetch koppor`
@@ -153,7 +153,7 @@ Folgend weitere Stichwörter:
   * Lernziel "Wie kommt man an einen Branch von jemand anderem?" erreicht
 1. `gitk --all`
 1. `git merge koppor/master`
-  * So hält man lokalen Branch mit aktuellen Änderungen bei `koppor` aktuell
+  * So hÃ¤lt man lokalen Branch mit aktuellen Ã„nderungen bei `koppor` aktuell
 1. Alternativ: `git rebase koppor/master`
   * Lernziel "Was bedeutet "rebase"?" erreicht
 
