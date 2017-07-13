@@ -8,6 +8,7 @@ This repository aims to provide step-by-step education for a git knowledge requi
 It does not replace complete git documentation and books, these can be found at following resources:
 
 * [awesome-git](https://github.com/dictcp/awesome-git) - an awesome list showing the best git resources
+  * [Git from the bottom-up](https://jwiegley.github.io/git-from-the-bottom-up/)
   * [awesome tutorals](https://github.com/dictcp/awesome-git#tutorial)
   * Book: [Learn Git in a Month of Lunches](https://www.manning.com/books/learn-git-in-a-month-of-lunches)
   * Book: [Version Control with Git](http://shop.oreilly.com/product/0636920022862.do) - contains technical explanations of the inner happenings of git
